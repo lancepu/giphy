@@ -1,0 +1,63 @@
+
+.fa-star{
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.card-header{
+  background-color: #007bff;
+  padding: 0;
+  text-align: center;
+}
+
+#accordion{
+  margin-bottom: 1rem;
+}
+
+.favDivBtn{
+  background-color: #007bff;
+  border: none;
+}
+
+.favDivBtn:focus{
+  box-shadow: none
+}
+
+.gif-section{
+  margin: 1rem;
+}
+
+.buttons-view{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.gifTopic{
+  margin: 0.3rem;
+  border: 0
+}
+
+#Trending{
+  background-color: red
+}
+
+.downloadGif,
+.removeFavBtn{
+  margin: 0.5rem;
+}
+
+.fa-download{
+  margin-right: 0.5rem;
+}
+
+/* using media query to fix issue where hover is not working properly on mobile devices, hover effects only apply when using desktop */
+@media only screen and (min-width: 1367px) {
+  .fa-star:hover{
+    cursor: pointer;
+    color: yellowgreen
+  }
+
+  .gifResult:hover {
+  cursor: pointer;
+}
+}
